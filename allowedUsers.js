@@ -1,4 +1,4 @@
 window.HEX_ALLOWED_USERS = new Set([
-    //'USR-DVTLFU4'
+    'USR-6XQ5QCTD'
     // 'USR-DVTLFU4',
 ]);
