@@ -62,7 +62,7 @@ const showAccessGate = (visitorId, isBanned) => {
         const idLabel = makeElement('span', 'access-id-label', 'ID SESJI');
         const idValue = makeElement('code', 'access-id-value', visitorId);
         const copyButton = makeElement('button', 'access-copy-button', 'Kopiuj ID sesji');
-        const copyStatus = makeElement('p', 'access-copy-status', 'Dopisz ID w pliku allowedUsers.js i odśwież stronę.');
+        const copyStatus = makeElement('p', 'access-copy-status', 'Po otrzymaniu dostępu odśwież stronę.');
 
         copyButton.type = 'button';
         copyButton.addEventListener('click', async () => {
